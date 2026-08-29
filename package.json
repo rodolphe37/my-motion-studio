@@ -2,7 +2,7 @@
   "name": "my-motion-studio",
   "description": "A free, open-source, offline-first 2D & 3D motion design editor that runs entirely in your browser.",
   "private": true,
-  "version": "0.4.0",
+  "version": "0.4.1",
   "type": "module",
   "license": "MIT",
   "author": "rodolphe37",

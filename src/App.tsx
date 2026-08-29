@@ -5,10 +5,12 @@ import DocsPage from '@/pages/DocsPage';
 import ProjectsPage from '@/pages/ProjectsPage';
 import SettingsPage from '@/pages/SettingsPage';
 import EditorPage from '@/pages/EditorPage';
+import PwaInstallPrompt from '@/components/PwaInstallPrompt';
 
 export default function App() {
   return (
     <BrowserRouter>
+      <PwaInstallPrompt icon="/icon-192.png" />
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route
